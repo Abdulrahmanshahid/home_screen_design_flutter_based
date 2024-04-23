@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:training/pages/home.dart';
 
 void main() {
-  runApp(MyApp()); // Removed 'const' keyword
+  runApp(const MyApp()); // Removed 'const' keyword
 }
 
 class MyApp extends StatelessWidget {
